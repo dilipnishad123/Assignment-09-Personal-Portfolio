@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dilip Nishad | Full-Stack Software Engineer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Sticky Navigation Bar -->
+    <header class="sticky-nav">
+        <div class="container nav-flex">
+            <a href="#home" class="nav-brand">&lt;Dilip.Nishad /&gt;</a>
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#certifications">Certificates</a>
+                <a href="#contact">Contact</a>
+                <a href="../../index.html" class="hub-pill">← Hub</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 1. Home / Hero Section with CSS Keyframe Animation -->
+    <section id="home" class="hero-section">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <div class="animated-pill">
+                    <span class="pulse-dot"></span> Available for Web Development Roles
+                </div>
+                <h1 class="hero-heading">Hi, I'm <span class="highlight">Dilip Nishad</span></h1>
+                <p class="hero-role">Full-Stack Web Developer & B.Tech CSE Engineer</p>
+                <p class="hero-description">
+                    I design and construct high-performance, accessible, and responsive digital web applications with modern HTML5, CSS3, JavaScript, and Node.js.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+
+            <!-- Animated Tech Graphic (Pure CSS float animation) -->
+            <div class="hero-visual">
+                <div class="floating-card-wrapper">
+                    <div class="glow-orb"></div>
+                    <div class="glass-terminal">
+                        <div class="terminal-dots">
+                            <span class="dot dot-red"></span>
+                            <span class="dot dot-yellow"></span>
+                            <span class="dot dot-green"></span>
+                        </div>
+                        <div class="terminal-code">
+                            <p><span class="c-keyword">const</span> <span class="c-var">engineer</span> = {</p>
+                            <p class="indent"><span class="c-prop">name</span>: <span class="c-str">"Dilip Nishad"</span>,</p>
+                            <p class="indent"><span class="c-prop">role</span>: <span class="c-str">"Web Developer"</span>,</p>
+                            <p class="indent"><span class="c-prop">skills</span>: [<span class="c-str">"HTML5"</span>, <span class="c-str">"CSS3"</span>, <span class="c-str">"JS"</span>],</p>
+                            <p class="indent"><span class="c-prop">passion</span>: <span class="c-str">"Clean Code"</span></p>
+                            <p>};</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. About Me Section -->
+    <section id="about" class="about-section container">
+        <div class="section-title">
+            <h2>About Me</h2>
+            <div class="title-underline"></div>
+        </div>
+        <div class="about-content">
+            <p>
+                I am a dedicated Computer Science undergraduate with a passion for web engineering, algorithmic problem solving, and modern UI/UX design. Having mastered web architecture fundamentals, browser rendering pipelines, and the JavaScript runtime, I take pride in developing interfaces that look exceptional on every screen size while remaining strictly accessible (WCAG standard).
+            </p>
+            <div class="about-stats-grid">
+                <div class="stat-item">
+                    <h3>2024-28</h3>
+                    <p>B.Tech CSE Batch</p>
+                </div>
+                <div class="stat-item">
+                    <h3>10+</h3>
+                    <p>Web Projects Built</p>
+                </div>
+                <div class="stat-item">
+                    <h3>100%</h3>
+                    <p>Responsive Layouts</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Technical Skills</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <span class="skill-icon">🧱</span>
+                    <h3>HTML5 & Accessibility</h3>
+                    <p>Semantic tags, a11y landmarks, ARIA roles, forms & native validation.</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">🎨</span>
+                    <h3>CSS3 & Layout Engines</h3>
+                    <p>Flexbox, 2D CSS Grid, @keyframes animations, transitions, media queries.</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">⚡</span>
+                    <h3>Modern JavaScript (ES6+)</h3>
+                    <p>Closures, DOM events, higher-order array methods, event loop & async/await.</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">🌊</span>
+                    <h3>Frameworks & Utilities</h3>
+                    <p>Bootstrap 5, Tailwind CSS, Sass/SCSS preprocessor mixins & variables.</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">🐙</span>
+                    <h3>Version Control & Git</h3>
+                    <p>Branching workflows, GitHub repository hosting, CI/CD deployment.</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">🗄️</span>
+                    <h3>Web Storage & APIs</h3>
+                    <p>LocalStorage, SessionStorage, Cookies, REST APIs, JSON data exchange.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Education Section -->
+    <section id="education" class="education-section container">
+        <div class="section-title">
+            <h2>Education</h2>
+            <div class="title-underline"></div>
+        </div>
+        <div class="timeline">
+            <div class="timeline-card">
+                <span class="year-badge">2024 – 2028</span>
+                <h3>Bachelor of Technology (B.Tech) - CSE</h3>
+                <h4>Apex Institute of Technology & Engineering</h4>
+                <p>Focusing on Data Structures & Algorithms, Computer Networks, and Full-Stack Web Development.</p>
+            </div>
+            <div class="timeline-card">
+                <span class="year-badge">2022 – 2024</span>
+                <h3>Higher Secondary Certificate (Class XII - PCM)</h3>
+                <h4>State Education Board</h4>
+                <p>Secured high first division with special emphasis on Mathematics and Physics.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Experience Section -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Experience & Training</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="exp-card">
+                <div class="exp-header">
+                    <div>
+                        <h3>Full-Stack Web Engineering Trainee</h3>
+                        <span class="exp-company">College Technical Training Program</span>
+                    </div>
+                    <span class="exp-period">Aug 2026 – Present</span>
+                </div>
+                <ul class="exp-list">
+                    <li>Engineered 10+ hands-on web projects covering semantic HTML5, CSS Grid, and JavaScript DOM manipulation.</li>
+                    <li>Designed an interactive DNS resolution and HTTP request-response visual simulator.</li>
+                    <li>Collaborated in pair-programming sessions and maintained an active open-source GitHub repository.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Projects Section -->
+    <section id="projects" class="projects-section container">
+        <div class="section-title">
+            <h2>Featured Projects</h2>
+            <div class="title-underline"></div>
+        </div>
+        <div class="projects-grid">
+            
+            <article class="project-box">
+                <div class="project-top">
+                    <span class="project-num">01</span>
+                    <h3>Interactive Web Architecture Hub</h3>
+                </div>
+                <p>A visual simulator that illustrates recursive DNS lookups, HTTP status codes, and browser rendering pipelines.</p>
+                <div class="tags-row">
+                    <span class="tag">HTML5</span>
+                    <span class="tag">CSS Grid</span>
+                    <span class="tag">JavaScript</span>
+                </div>
+                <a href="../../01-web-fundamentals/index.html" class="p-link">Open Project →</a>
+            </article>
+
+            <article class="project-box">
+                <div class="project-top">
+                    <span class="project-num">02</span>
+                    <h3>College Timetable Scheduling System</h3>
+                    <p class="project-top-desc"></p>
+                    <h3>College Timetable Scheduling Portal</h3>
+                </div>
+                <p>Advanced HTML table architecture implementing rowspan, colspan, alternating zebra stripes, and interactive lab highlights.</p>
+                <div class="tags-row">
+                    <span class="tag">HTML5 Tables</span>
+                    <span class="tag">CSS3</span>
+                    <span class="tag">Responsive</span>
+                </div>
+                <a href="../Assignment-03-College-Time-Table/index.html" class="p-link">Open Project →</a>
+            </article>
+
+            <article class="project-box">
+                <div class="project-top">
+                    <span class="project-num">03</span>
+                    <h3>E-Commerce Frontend Showcase</h3>
+                </div>
+                <p>A multi-page responsive storefront with product catalog grids, modal previews, and cart layouts.</p>
+                <div class="tags-row">
+                    <span class="tag">CSS Flexbox</span>
+                    <span class="tag">CSS Grid</span>
+                    <span class="tag">UI/UX</span>
+                </div>
+                <a href="../Assignment-10-Responsive-Ecommerce/index.html" class="p-link">Open Project →</a>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- 7. Certifications Section -->
+    <section id="certifications" class="cert-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Certifications</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="cert-grid">
+                <div class="cert-card">
+                    <span class="cert-icon">📜</span>
+                    <h3>Full-Stack Web Development</h3>
+                    <p>College Technical Bootcamp • 2026</p>
+                </div>
+                <div class="cert-card">
+                    <span class="cert-icon">📜</span>
+                    <h3>JavaScript (ES6+) Algorithms</h3>
+                    <p>Technical Problem Solving Certification • 2026</p>
+                </div>
+                <div class="cert-card">
+                    <span class="cert-icon">📜</span>
+                    <h3>Web Accessibility & Responsive Design</h3>
+                    <p>Modern Frontend Standards Certification • 2026</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Contact Section -->
+    <section id="contact" class="contact-section container">
+        <div class="section-title">
+            <h2>Contact Me</h2>
+            <div class="title-underline"></div>
+        </div>
+        <div class="contact-wrapper">
+            <div class="contact-details">
+                <h3>Let's build something exceptional together!</h3>
+                <p>Feel free to reach out for internship opportunities, project collaborations, or tech discussions.</p>
+                <div class="contact-links">
+                    <p>📧 Email: <a href="mailto:dilip6392973805@gmail.com">dilip6392973805@gmail.com</a></p>
+                    <p>📱 Mobile: <a href="tel:+916392973805">+91 63929 73805</a></p>
+                    <p>🐙 GitHub: <a href="https://github.com/dilipnishad123" target="_blank">github.com/dilipnishad123</a></p>
+                    <p>📍 Location: New Delhi NCR, India</p>
+                </div>
+            </div>
+            <form class="contact-form" action="#" method="POST" onsubmit="event.preventDefault(); alert('Message sent successfully! Thank you for contacting Dilip.');">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="4" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-flex">
+            <p>&copy; 2026 Dilip Nishad • Designed with Semantic HTML5 & Pure CSS3 Animations</p>
+            <p><a href="../../index.html">← Back to Master Hub</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
